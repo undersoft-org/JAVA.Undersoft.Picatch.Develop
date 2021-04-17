@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@android:id/text1"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+
+
+
+    android:drawableLeft="#afe0b5"
+    android:drawableRight="#efe085"
+    android:drawableTop="#dfb0c5"
+    android:gravity="center_vertical"
+    android:maxLines="1"
+
+    android:minHeight="?android:attr/listPreferredItemHeightSmall"
+    android:paddingLeft="?android:attr/listPreferredItemPaddingLeft"
+    android:paddingRight="?android:attr/listPreferredItemPaddingRight"
+    android:singleLine="true"
+    android:textAppearance="?android:attr/textAppearanceListItemSmall"
+    android:textSize="15dp"
+    android:background="@drawable/gradient_box" />
+
+<!-- 
+#af80e5
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@android:id/text1"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:drawableBottom="@drawable/dividerline"
+    android:textAppearance="?android:attr/textAppearanceListItemSmall"
+    android:gravity="center_vertical"
+    android:paddingLeft="?android:attr/listPreferredItemPaddingLeft"
+    android:paddingRight="?android:attr/listPreferredItemPaddingRight"
+    android:minHeight="?android:attr/listPreferredItemHeightSmall"
+/>
+-->
+<!-- From: file:/C:/Users/dariu/AndroidStudioProjects/picatch_eclipse/app/src/main/res/layout/doc_list_elem.xml -->

@@ -1,0 +1,123 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="pl.undersoft.picatch.PICATCH_COLLECTING_DOC_EDIT">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="collecting->documents"
+        android:id="@+id/textView3"
+        android:singleLine="true"
+        android:textColor="#a3a1a1"
+        android:textSize="20dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="5dp" />
+
+    <TextView
+        android:id="@+id/textView25"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:singleLine="true"
+        android:text="Edit document"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#a3a1a1"
+        android:textSize="25dp"
+        android:layout_below="@+id/textView3"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp" />
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="60dp"
+        android:text="UPDATE DOCUMENT"
+        android:id="@+id/update_b"
+        android:singleLine="true"
+        android:background="@drawable/picatch_button"
+        android:textSize="20dp"
+        android:textColor="#ffffff"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+
+    <TableLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:id="@+id/tableLayout"
+        android:layout_below="@+id/textView25"
+        android:layout_marginTop="10dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Description"
+            android:id="@+id/textView5"
+            android:layout_alignTop="@+id/col_details_edit_name_t"
+            android:layout_alignParentRight="true"
+            android:layout_column="18"
+            android:textSize="15dp"
+            android:textColor="#a3a1a1" />
+
+        <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="50dp"
+            android:id="@+id/col_details_edit_name_t"
+            android:singleLine="false"
+            android:editable="true"
+            android:layout_below="@+id/textView3"
+            android:layout_alignParentRight="true"
+            android:textSize="20dp"
+            android:inputType="text"
+          />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Type"
+            android:id="@+id/textView4"
+            android:layout_alignRight="@+id/doc_type_t"
+            android:layout_below="@+id/col_details_edit_name_t"
+            android:textSize="15dp"
+            android:textColor="#a3a1a1"
+            android:layout_marginTop="10dp" />
+
+        <Spinner
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/doc_type_s_1_1" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Date"
+            android:id="@+id/textView6"
+            android:layout_below="@+id/doc_type_t"
+            android:layout_alignParentRight="true"
+            android:textSize="15dp"
+            android:textColor="#a3a1a1"
+            android:layout_marginTop="10dp" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:inputType="date"
+            android:ems="10"
+            android:id="@+id/doc_date_t"
+            android:layout_below="@+id/doc_type_t"
+            android:layout_alignRight="@+id/textView5"
+            android:layout_alignParentLeft="true"
+            android:textSize="20dp"
+           />
+
+    </TableLayout>
+
+</RelativeLayout>

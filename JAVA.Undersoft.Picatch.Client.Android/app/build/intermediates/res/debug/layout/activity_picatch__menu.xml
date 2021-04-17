@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/menu_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="pl.undersoft.picatch.PICATCH_MENU"
+    android:background="#ffffff">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerHorizontal="true"
+        android:padding="@dimen/activity_horizontal_margin">
+
+        <Button
+            android:id="@+id/collecting_b"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="75dp"
+            android:layout_weight="5"
+            android:background="@drawable/picatch_button"
+            android:clickable="true"
+            android:ellipsize="none"
+            android:enabled="true"
+            android:focusable="false"
+            android:focusableInTouchMode="true"
+            android:text="COLLECTING"
+            android:textColor="#ffffff"
+            android:textSize="20dp" />
+
+        <Button
+            android:id="@+id/assembling_b"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_weight="5"
+            android:background="@drawable/picatch_button"
+            android:clickable="true"
+            android:enabled="true"
+            android:focusable="false"
+            android:focusableInTouchMode="false"
+            android:text="ASSEMBLING"
+            android:textColor="#ffffff"
+            android:textSize="20dp" />
+
+        <Button
+            android:id="@+id/registers_b"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_weight="5"
+            android:background="@drawable/picatch_button"
+            android:clickable="true"
+            android:enabled="true"
+            android:focusable="false"
+            android:focusableInTouchMode="false"
+            android:text="PRODUCTS"
+            android:textColor="#ffffff"
+            android:textSize="20dp" />
+
+        <Button
+            android:id="@+id/transfer_b"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_weight="5"
+            android:background="@drawable/picatch_button"
+            android:clickable="true"
+            android:enabled="true"
+            android:focusable="false"
+            android:focusableInTouchMode="false"
+            android:text="DOWNLOAD DATA"
+            android:textColor="#ffffff"
+            android:textSize="20dp" />
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="40dp"
+            android:layout_height="30dp"
+            android:layout_marginBottom="0dp"
+            android:layout_marginTop="25dp"
+            android:layout_weight="2"
+            android:src="@drawable/undersoft" />
+
+    </TableLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:clickable="false">
+
+        <Button
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:id="@+id/options_b"
+            android:background="@drawable/picatch_menu_button"
+            android:clickable="true"
+            android:enabled="true"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:layout_alignParentBottom="false"
+            android:layout_toLeftOf="@+id/button2"
+            android:layout_marginRight="5dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="10dp" />
+
+
+        <ImageView
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:id="@+id/imageView"
+            android:src="@mipmap/ic_launcher"
+            android:layout_alignParentBottom="false"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="5dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="10dp" />
+
+        <Button
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:id="@+id/button2"
+            android:background="@drawable/picatch_help_button"
+            android:layout_alignParentBottom="false"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="5dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="10dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="PICatch"
+            android:id="@+id/textView2"
+            android:layout_alignParentBottom="false"
+            android:layout_toRightOf="@+id/imageView"
+            android:textSize="30dp"
+            android:textColor="#ff726d6e"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="12dp" />
+
+    </RelativeLayout>
+
+
+
+</RelativeLayout>
+<!-- From: file:/C:/Users/dariu/AndroidStudioProjects/picatch_eclipse/app/src/main/res/layout/activity_picatch__menu.xml -->

@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/layout_1" >
+        
+	<TextView 
+	    android:id="@+id/editText1_l_1"
+	    android:layout_width="0dp"
+	    android:layout_height="match_parent"
+		android:paddingTop="6dp"
+	    android:paddingBottom="6dp"
+	    android:paddingLeft="6dp"
+	    android:paddingRight="6dp"
+	    
+		android:layout_weight="5"
+		    
+        android:gravity="center|center_horizontal"
+        android:textColor="#ff4c4c4b"
+		android:text=""
+
+	    android:drawableBottom="@drawable/dividerline"
+	    android:drawableLeft="#afe0b5"
+	    android:drawableRight="#efe085"
+	    android:drawableTop="#dfb0c5"
+	    android:maxLines="2"
+	    
+	    android:singleLine="false"
+	    android:textSize="12dp"
+	    android:background="@drawable/gradient_box"
+		android:textIsSelectable="false"
+		android:lines="2"
+		android:password="false" />
+	
+	<TextView 
+	    android:id="@+id/editText1_l_2"
+	    android:layout_width="0dp"
+	    android:layout_height="match_parent"
+		android:paddingTop="6dp"
+	    android:paddingBottom="6dp"
+	    android:paddingLeft="6dp"
+	    android:paddingRight="6dp"
+	    
+		android:layout_weight="4"
+		    
+        android:gravity="center|center_horizontal"
+        android:textColor="#ff4c4c4b"
+		android:text=""
+
+	    android:drawableBottom="@drawable/dividerline"
+	    android:drawableLeft="#afe0b5"
+	    android:drawableRight="#efe085"
+	    android:drawableTop="#dfb0c5"
+	    android:maxLines="1"
+	    
+	    android:singleLine="false"
+	    android:textSize="13dp"
+	    android:background="@drawable/gradient_box"
+		android:lines="2" />
+	
+	<TextView 
+	    android:id="@+id/editText1_l_3"
+	    android:layout_width="0dp"
+	    android:layout_height="match_parent"
+		android:paddingTop="6dp"
+	    android:paddingBottom="6dp"
+	    android:paddingLeft="6dp"
+	    android:paddingRight="6dp"
+	    
+		android:layout_weight="2"
+		    
+        android:gravity="center|center_horizontal"
+        android:textColor="#ff4c4c4b"
+		android:text=""
+
+	    android:drawableBottom="@drawable/dividerline"
+	    android:drawableLeft="#afe0b5"
+	    android:drawableRight="#efe085"
+	    android:drawableTop="#dfb0c5"
+	    android:maxLines="1"
+	    
+	    android:singleLine="false"
+	    android:textSize="13dp"
+	    android:background="@drawable/gradient_box"
+		android:lines="2" />
+	
+	<TextView
+	    android:id="@+id/editText1_l_4"
+	    android:layout_width="0dp"
+	    android:layout_height="match_parent"
+		android:paddingTop="6dp"
+	    android:paddingBottom="6dp"
+	    android:paddingLeft="6dp"
+	    android:paddingRight="6dp"
+	    
+		android:layout_weight="2"
+		    
+        android:gravity="center|center_horizontal"
+        android:textColor="#ff4c4c4b"
+		android:text=""
+
+	    android:drawableBottom="@drawable/dividerline"
+	    android:drawableLeft="#afe0b5"
+	    android:drawableRight="#efe085"
+	    android:drawableTop="#dfb0c5"
+	    android:maxLines="1"
+	    
+	    android:singleLine="false"
+	    android:textSize="13dp"
+	    android:background="@drawable/gradient_box"
+		android:lines="2" />
+
+</LinearLayout>
+
+<!-- 
+	<TextView 
+	    android:id="@+id/editText1_l_2"
+	    android:layout_width="0dp"
+	    android:layout_height="wrap_content"
+	    android:height="30dp"
+		android:layout_weight="3"
+		    
+        android:gravity="center"
+        android:textColor="#ff4c4c4b"
+		android:text="jiwq 2"
+
+	    android:drawableBottom="@drawable/dividerline"
+	    android:drawableLeft="#afe0b5"
+	    android:drawableRight="#efe085"
+	    android:drawableTop="#dfb0c5"
+	    android:maxLines="1"
+	    
+	    android:singleLine="true"
+	    android:textSize="15dp"
+	    android:background="@drawable/gradient_box"
+	/>
+
+	<TextView 
+	    android:id="@+id/editText1_l_3"
+	    android:layout_width="0dp"
+	    android:layout_height="wrap_content"
+	    android:height="30dp"
+		android:layout_weight="6"
+		    
+        android:gravity="center"
+        android:textColor="#ff4c4c4b"
+		android:text="jiwq 3"
+
+	    android:drawableBottom="@drawable/dividerline"
+	    android:drawableLeft="#afe0b5"
+	    android:drawableRight="#efe085"
+	    android:drawableTop="#dfb0c5"
+	    android:maxLines="1"
+	    
+	    android:singleLine="true"
+	    android:textSize="15dp"
+	    android:background="@drawable/gradient_box"
+	/>
+
+	<TextView 
+	    android:id="@+id/editText1_l_4"
+	    android:layout_width="0dp"
+	    android:layout_height="wrap_content"
+	    android:height="30dp"
+		android:layout_weight="2"
+		    
+        android:gravity="center"
+        android:textColor="#ff4c4c4b"
+		android:text="jiwq 4"
+
+	    android:drawableBottom="@drawable/dividerline"
+	    android:drawableLeft="#afe0b5"
+	    android:drawableRight="#efe085"
+	    android:drawableTop="#dfb0c5"
+	    android:maxLines="1"
+	    
+	    android:singleLine="true"
+	    android:textSize="15dp"
+	    android:background="@drawable/gradient_box"
+	/>
+		
+
+
+   <LinearLayout
+           xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+       
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:weightSum="5" >
+
+    <Button
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="1" />
+
+    <Button
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="3"
+        android:text="2" />
+
+    <Button
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="3" />
+
+    </LinearLayout>
+
+	<TextView 
+	    android:id="@+id/editText1_l_1"
+	    android:layout_width="0dp"
+	    android:layout_height="wrap_content"
+	    android:height="20dp"
+		android:layout_weight="5"
+		    
+        android:gravity="center"
+        android:textColor="#ff4c4c4b"
+		android:text="jiwq iwdj"
+
+	    android:drawableBottom="@drawable/dividerline"
+	    android:drawableLeft="#afe0b5"
+	    android:drawableRight="#efe085"
+	    android:drawableTop="#dfb0c5"
+	    android:maxLines="1"
+	    
+	    android:minHeight="?android:attr/listPreferredItemHeightSmall"
+	    android:paddingLeft="?android:attr/listPreferredItemPaddingLeft"
+	    android:paddingRight="?android:attr/listPreferredItemPaddingRight"
+	    android:singleLine="true"
+	    android:textAppearance="?android:attr/textAppearanceListItemSmall"
+	    android:textSize="15dp"
+	    android:background="@drawable/gradient_box"
+ -->
+<!-- From: file:/C:/Users/dariu/AndroidStudioProjects/picatch_eclipse/app/src/main/res/layout/doc_list_layout.xml -->

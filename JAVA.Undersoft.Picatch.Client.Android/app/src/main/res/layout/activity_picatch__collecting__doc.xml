@@ -1,0 +1,204 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="pl.undersoft.picatch.PICATCH_COLLECTING_DOC"
+    android:background="#ffffff" >
+
+    <!-- The primary full-screen view. This can be replaced with whatever view
+         is needed to present your content, e.g. VideoView, SurfaceView,
+         TextureView, etc. -->
+
+    <!-- This FrameLayout insets its children based on system windows using
+         android:fitsSystemWindows. -->
+         
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="collecting->documents"
+        android:id="@+id/textView_1"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:singleLine="true"
+        android:textColor="#a3a1a1"
+        android:layout_marginLeft="5dp"
+        android:textSize="20dp"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_alignParentRight="true"
+        android:gravity="left" />
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/textView_1"
+        android:id="@+id/tableLayout3">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/textView_1"
+            android:layout_alignParentLeft="true"
+            android:baselineAligned="false">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Description"
+                android:id="@+id/textView"
+                android:singleLine="true"
+                android:textColor="#FF0084FB"
+                android:textSize="18dp"
+                android:layout_below="@+id/textView_1"
+                android:layout_alignParentLeft="true"
+                android:layout_weight="5"
+                android:gravity="center" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Date"
+                android:id="@+id/textView16"
+                android:singleLine="true"
+                android:textColor="#FF0084FB"
+                android:textSize="18dp"
+                android:layout_below="@+id/textView_1"
+                android:layout_toRightOf="@+id/textView"
+                android:layout_weight="4"
+                android:gravity="center" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Type"
+                android:id="@+id/textView17"
+                android:singleLine="true"
+                android:textColor="#FF0084FB"
+                android:textSize="18dp"
+                android:layout_alignTop="@+id/textView16"
+                android:layout_toRightOf="@+id/textView16"
+                android:layout_weight="2"
+                android:gravity="center" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Send"
+                android:id="@+id/textView18"
+                android:singleLine="true"
+                android:textColor="#FF0084FB"
+                android:textSize="18dp"
+                android:layout_alignTop="@+id/textView16"
+                android:layout_toRightOf="@+id/textView16"
+                android:layout_weight="2"
+                android:gravity="center" />
+        </TableRow>
+    </TableLayout>
+
+    <ListView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/doc_list_1_1"
+        android:focusableInTouchMode="true"
+        android:choiceMode="singleChoice"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/tableLayout3"
+        android:layout_above="@+id/add_b_1"
+        android:background="#ffffff" />
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="60dp"
+        android:text="OPEN DOCUMENT"
+        android:id="@+id/details_b_1"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="20dp"
+        android:singleLine="true"
+        android:background="@drawable/picatch_button"
+        android:textSize="20dp"
+        android:textColor="#ffffff"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/add_b_1"
+        android:layout_above="@+id/details_b_1"
+        android:layout_alignParentLeft="true"
+        android:background="@drawable/picatch_add_button"
+        android:layout_marginLeft="10dp"
+        android:layout_marginBottom="15dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/edit_b_1"
+        android:background="@drawable/picatch_edit_button"
+        android:layout_alignTop="@+id/add_b_1"
+        android:layout_toRightOf="@+id/add_b_1"
+        android:layout_below="@+id/doc_list_1_1"
+        android:layout_marginLeft="10dp"
+        android:layout_marginBottom="15dp"
+        android:layout_marginRight="10dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/send_b_1"
+        android:background="@drawable/picatch_send_button"
+        android:layout_alignTop="@+id/delete_b_1"
+        android:layout_alignRight="@+id/details_b_1" />
+
+    <Button
+        android:id="@+id/delete_b_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/picatch_delete_button"
+        android:layout_alignTop="@+id/edit_b_1"
+        android:layout_toRightOf="@+id/edit_b_1"
+        android:layout_marginLeft="10dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:id="@+id/sendProgress"
+        android:layout_toLeftOf="@+id/send_b_1"
+        android:textSize="22dp"
+
+        android:layout_marginRight="10dp"
+        android:layout_alignTop="@+id/send_b_1"
+        android:layout_alignBottom="@+id/send_b_1"
+        android:gravity="center" />
+
+</RelativeLayout>
+<!-- 
+
+    <GridView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/gridView_1"
+        android:numColumns="4"
+        android:focusableInTouchMode="true"
+        android:drawSelectorOnTop="false"
+        android:choiceMode="singleChoice"
+        android:background="#ffc9c7c3"
+        android:layout_below="@+id/textView_1"
+        android:layout_alignParentLeft="true"
+        android:layout_above="@+id/add_b_1"
+        android:horizontalSpacing="5dp"
+    	android:verticalSpacing="10dp"
+    	android:adjustViewBounds="false"
+    	android:stretchMode="columnWidth"
+     />
+
+ -->

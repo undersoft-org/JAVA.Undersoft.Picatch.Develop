@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/C:/Users/dariu/AndroidStudioProjects/picatch_eclipse/app/src/main/res/values/doctype_list.xml -->
+    <eat-comment/>
+    <string-array name="doc_types">
+        <item>REM</item>
+        <item>WZ</item>
+        <item>MM</item>
+        <item>PZ</item>
+        <item>FV</item>
+        <item>RW</item>
+        <item>PW</item>
+    </string-array>
+    <!-- From: file:/C:/Users/dariu/AndroidStudioProjects/picatch_eclipse/app/src/main/res/values/product_filter_list.xml -->
+    <eat-comment/>
+    <string-array name="product_filter_list">
+        <item>NAME</item>
+        <item>EAN</item>
+    </string-array>
+    <!-- From: file:/C:/Users/dariu/AndroidStudioProjects/picatch_eclipse/app/src/main/res/values/colors.xml -->
+    <eat-comment/>
+    <color name="actionBar_background">#00ffff</color>
+    <color name="actionBar_foreground">#ff00ff</color>
+    <color name="black_overlay">#66000000</color>
+    <!-- From: file:/C:/Users/dariu/AndroidStudioProjects/picatch_eclipse/app/src/main/res/values/dimens.xml -->
+    <eat-comment/>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <!-- From: file:/C:/Users/dariu/AndroidStudioProjects/picatch_eclipse/app/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="app_name">PICatch</string>
+    <string name="title_activity_picatch__assembling__doc">PICATCH_ASSEMBLING_DOC</string>
+    <string name="title_activity_picatch__collecting__doc_1">PICATCH_COLLECTING_DOC_1</string>
+    <string name="title_activity_picatch__collecting__doc_1_1">PICATCH_COLLECTING_DOC_1_1</string>
+    <string name="title_activity_picatch__collecting__doc_2">PICATCH_COLLECTING_DOC_2</string>
+    <string name="title_activity_picatch__collecting__doc_2_1">PICATCH_COLLECTING_DOC_2_1</string>
+    <string name="title_activity_picatch__collecting__doc_details_edit">PICATCH_COLLECTING_DOC_DETAILS_EDIT</string>
+    <string name="title_activity_picatch__options">PICATCH_OPTIONS</string>
+    <string name="title_activity_picatch__registers_products">PICATCH_REGISTERS_PRODUCTS</string>
+    <string name="title_activity_picatch__tcp__download">PICATCH_TCP_DOWNLOAD</string>
+    <!-- From: file:/C:/Users/dariu/AndroidStudioProjects/picatch_eclipse/app/src/main/res/values/styles.xml -->
+    <eat-comment/>
+    <style name="BarraProgreso" parent="@android:style/Widget.Holo.Light.ProgressBar.Horizontal">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:padding">7dp</item>
+        <item name="android:indeterminate">true</item>
+	</style>
+    <style name="EnableActionBar" parent="@android:style/Theme.Light.NoTitleBar.Fullscreen">
+        <item name="android:windowActionBar">true</item>
+        <item name="android:windowNoTitle">false</item>
+    </style>
+</resources>

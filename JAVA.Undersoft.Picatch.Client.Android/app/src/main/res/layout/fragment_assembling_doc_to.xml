@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="#ffffff" >
+
+    <ListView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/listView_a_doc_1"
+        android:focusableInTouchMode="true"
+        android:choiceMode="singleChoice"
+        android:layout_alignParentLeft="true"
+        android:layout_above="@+id/a_doc_add_b_1"
+        android:background="#ffffff"
+        android:layout_alignParentTop="true" />
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="60dp"
+        android:text="OPEN DOCUMENT"
+        android:id="@+id/a_doc_details_b_1"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="20dp"
+        android:singleLine="true"
+        android:background="@drawable/picatch_button"
+        android:textSize="20dp"
+        android:textColor="#ffffff"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/a_doc_add_b_1"
+        android:layout_above="@+id/a_doc_details_b_1"
+        android:layout_alignParentLeft="true"
+        android:background="@drawable/picatch_add_button"
+        android:layout_marginLeft="10dp"
+        android:layout_marginBottom="15dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/a_doc_edit_b_1"
+        android:layout_below="@+id/listView_a_doc_1"
+        android:layout_toRightOf="@+id/a_doc_add_b_1"
+        android:background="@drawable/picatch_edit_button"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/a_doc_send_b_1"
+        android:background="@drawable/picatch_send_button"
+        android:layout_below="@+id/listView_a_doc_1"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp" />
+
+    <Button
+        android:id="@+id/a_doc_delete_b_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/a_doc_edit_b_1"
+        android:layout_alignBottom="@+id/a_doc_edit_b_1"
+        android:layout_toRightOf="@+id/a_doc_edit_b_1"
+        android:background="@drawable/picatch_delete_button"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="10dp" />
+    
+    
+    
+    
+    
+<!--      
+    <TextView 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Design Games Screen"
+        android:textSize="20dp"
+        android:layout_centerInParent="true"/>
+     -->
+ 
+</RelativeLayout>

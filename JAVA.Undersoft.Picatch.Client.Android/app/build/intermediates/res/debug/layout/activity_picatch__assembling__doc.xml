@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+ 
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" 
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="pl.undersoft.picatch.PICATCH_ASSEMBLING_DOC"
+	android:background="#ffffff" >
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_alignParentLeft="false"
+        android:id="@+id/tableLayout6"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentBottom="false">
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:baselineAligned="false" >
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Description"
+                android:id="@+id/textView41"
+                android:singleLine="true"
+                android:textColor="#FF0084FB"
+                android:textSize="18dp"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentLeft="true"
+                android:layout_weight="5"
+                android:gravity="center"
+                android:layout_marginTop="5dp" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Date"
+                android:id="@+id/textView42"
+                android:singleLine="true"
+                android:textColor="#FF0084FB"
+                android:textSize="18dp"
+                android:layout_alignTop="@+id/textView41"
+                android:layout_toRightOf="@+id/textView41"
+                android:layout_weight="4"
+                android:gravity="center"
+                android:layout_marginTop="5dp" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Type"
+                android:id="@+id/textView43"
+                android:singleLine="true"
+                android:textColor="#FF0084FB"
+                android:textSize="18dp"
+                android:layout_alignTop="@+id/textView41"
+                android:layout_toRightOf="@+id/textView42"
+                android:layout_weight="2"
+                android:gravity="center"
+                android:layout_marginTop="5dp" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Send"
+                android:id="@+id/textView44"
+                android:singleLine="true"
+                android:textColor="#FF0084FB"
+                android:textSize="18dp"
+                android:layout_alignTop="@+id/textView41"
+                android:layout_toRightOf="@+id/textView43"
+                android:layout_weight="2"
+                android:gravity="center"
+                android:layout_marginTop="5dp" />
+        </TableRow>
+    </TableLayout>
+
+    <android.support.v4.view.ViewPager xmlns:android="http://schemas.android.com/apk/res/android"
+	    android:id="@+id/pager"
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/tableLayout6">
+	</android.support.v4.view.ViewPager>
+
+</RelativeLayout>
+	<!-- From: file:/C:/Users/dariu/AndroidStudioProjects/picatch_eclipse/app/src/main/res/layout/activity_picatch__assembling__doc.xml -->

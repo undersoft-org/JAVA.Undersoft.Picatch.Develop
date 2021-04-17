@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\Users\dariu\AndroidStudioProjects\picatch_eclipse\app\libs\zbar.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="7bbdf7ba57a8a157c0cad51e455609c70887812e">
+        <dex dex="C:\Users\dariu\AndroidStudioProjects\picatch_eclipse\app\build\intermediates\pre-dexed\debug\zbar-e7003158d7dcef4490d0ba9fbe09698901a02543.jar" />
+    </item>
+    <item
+        jar="C:\Users\dariu\AppData\Local\Android\sdk1\extras\android\m2repository\com\android\support\support-v4\18.0.0\support-v4-18.0.0.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="44ec51e9d395a47aab135e5e1b556c0007442156">
+        <dex dex="C:\Users\dariu\AndroidStudioProjects\picatch_eclipse\app\build\intermediates\pre-dexed\debug\support-v4-18.0.0-042df031c578747e9ce78b35977339212aa4e7c8.jar" />
+    </item>
+
+</items>

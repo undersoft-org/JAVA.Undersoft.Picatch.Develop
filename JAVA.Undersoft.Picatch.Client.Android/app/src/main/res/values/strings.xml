@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">PICatch</string>
+
+    <string name="title_activity_picatch__options">PICATCH_OPTIONS</string>
+
+    <string name="title_activity_picatch__collecting__doc_1">PICATCH_COLLECTING_DOC_1</string>
+
+    <string name="title_activity_picatch__collecting__doc_2">PICATCH_COLLECTING_DOC_2</string>
+
+    <string name="title_activity_picatch__collecting__doc_1_1">PICATCH_COLLECTING_DOC_1_1</string>
+
+    <string name="title_activity_picatch__collecting__doc_2_1">PICATCH_COLLECTING_DOC_2_1</string>
+
+    <string name="title_activity_picatch__tcp__download">PICATCH_TCP_DOWNLOAD</string>
+
+    <string name="title_activity_picatch__collecting__doc_details_edit">PICATCH_COLLECTING_DOC_DETAILS_EDIT</string>
+
+    <string name="title_activity_picatch__assembling__doc">PICATCH_ASSEMBLING_DOC</string>
+
+    <string name="title_activity_picatch__registers_products">PICATCH_REGISTERS_PRODUCTS</string>
+
+</resources>

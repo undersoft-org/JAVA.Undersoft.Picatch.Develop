@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="doc_types">
+        <item>REM</item>
+        <item>WZ</item>
+        <item>MM</item>
+        <item>PZ</item>
+        <item>FV</item>
+        <item>RW</item>
+        <item>PW</item>
+    </string-array>
+</resources>

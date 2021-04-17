@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+    <selector xmlns:android="http://schemas.android.com/apk/res/android">
+        <item android:state_pressed="true" android:drawable="@drawable/ic_action_product_list_down" />
+
+
+        <item android:drawable="@drawable/ic_action_product_list_up" />
+
+    </selector>
+<!-- From: file:/C:/Users/dariu/AndroidStudioProjects/picatch_eclipse/app/src/main/res/drawable-mdpi/picatch_product_list_button.xml -->
